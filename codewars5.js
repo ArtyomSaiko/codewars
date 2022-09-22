@@ -1,6 +1,5 @@
 function getGrade (s1, s2, s3) {
-  // Code here
-  var  score = (s1 + s2 + s3) / 3;
+   var  score = (s1 + s2 + s3) / 3;
   if (score >= 90 && score <= 100 ){
     return "A";
   }
