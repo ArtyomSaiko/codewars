@@ -5,6 +5,5 @@ function updateLight(current) {
     case "yellow":
     return "red";
     case "red":
-    return "green";
-    }
+    return "green";}
   }
