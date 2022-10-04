@@ -1,0 +1,1 @@
+correctTail = (bod, tail) =>bod[bod.length-1] == tail
