@@ -9,3 +9,6 @@ function makeNegative(num) {
 function makeNegative(num) {
   return num < 0 ? num : -num;
 }
+
+\\third way
+const makeNegative = (num) => -Math.abs(num)
