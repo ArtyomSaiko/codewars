@@ -16,3 +16,12 @@ function finalGrade (exam, projects) {
     if (exam > 50 && projects >= 2) return 75;
     return 0;
 }
+
+\\ third option
+const finalGrade = (exam, projects) => {
+    return (
+      exam > 90 || projects > 10 ? 100 :
+      exam > 75 && projects >= 5 ? 90 :
+      exam > 50 && projects >= 2 ? 75 : 0
+    )
+  }
