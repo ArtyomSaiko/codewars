@@ -5,3 +5,5 @@ function typeOfSum(a, b) {
 
 \\second way
 const typeOfSum = (a, b) => typeof(a + b);
+
+\\third way
