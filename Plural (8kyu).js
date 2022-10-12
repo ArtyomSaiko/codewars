@@ -1,3 +1,4 @@
+\\ first way 
 plural = n => n!= 1 
 
 \\ second way 
