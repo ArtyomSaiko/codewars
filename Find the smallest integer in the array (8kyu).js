@@ -1,3 +1,4 @@
+\\ first way 
 class SmallestIntegerFinder {
     findSmallestInt(args) {
     var t;
@@ -7,5 +8,12 @@ class SmallestIntegerFinder {
               t = args[i];
           }
         } return t;
+    }
+  }
+
+  \\ second way 
+  class SmallestIntegerFinder {
+    findSmallestInt(args) {
+      return Math.min(...args)
     }
   }
