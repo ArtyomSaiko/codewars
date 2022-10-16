@@ -1,0 +1,1 @@
+const findAverage = (nums) => nums.reduce((a, c) => a + c) / nums.length;
