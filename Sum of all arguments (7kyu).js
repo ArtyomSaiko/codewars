@@ -1,0 +1,1 @@
+const sum = (...arr) => arr.filter(Number).reduce((a, b) => a + b, 0);
