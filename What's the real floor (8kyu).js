@@ -9,3 +9,7 @@ function getRealFloor(n) {
       return n-2;
     }
   }
+
+  \\ second way 
+  getRealFloor = n => n <= 0 ? n : n < 13 ? n - 1 : n - 2;
+  
