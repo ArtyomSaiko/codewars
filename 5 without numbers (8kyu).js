@@ -1,9 +1,9 @@
-\\first way
+// first way
 function unusualFive() {
   return ["one","two","three","four","five",].length;
 }
 
-\\second way
+// second way
 function unusualFive() {
   return "AAAAA".length;
 }
