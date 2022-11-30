@@ -1,4 +1,4 @@
-\\first way 
+// first way 
 function bmi(weight, height) {
   let bmi2 = weight/Math.pow(height, 2);
   if (bmi2 <= 18.5){
@@ -12,7 +12,7 @@ function bmi(weight, height) {
   }
 }
 
-\\ second way
+// second way
 function bmi(weight, height) {
   let bmi = (weight / Math.pow(height, 2));
   switch(true){
