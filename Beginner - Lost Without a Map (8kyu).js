@@ -1,11 +1,11 @@
-\\ first way
+// first way
 
 function maps(x){
    return x.map(n => n * 2);
 }
 
 
-\\second way
+// second way
 
 function maps(x){
 let arr = [];
