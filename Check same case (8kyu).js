@@ -6,7 +6,7 @@ function sameCase(a, b) {
     }
   }
 
-  \\ second way 
+  // second way 
   function sameCase(a, b){
     if(a.toUpperCase() === a.toLowerCase() || b.toLowerCase() === b.toUpperCase()){
        return -1
