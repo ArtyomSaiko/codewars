@@ -1,4 +1,4 @@
-\\ first way 
+// first way 
 function peopleWithAgeDrink(old) {
     if (old < 14){
       return "drink toddy";
@@ -11,7 +11,7 @@ function peopleWithAgeDrink(old) {
     }
   }
 
-  \\ second way
+  // second way
   const peopleWithAgeDrink = (age) => {
     switch (true) {
       case (age >= 21): return 'drink whisky';
