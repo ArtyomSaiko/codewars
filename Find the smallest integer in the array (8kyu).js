@@ -11,7 +11,7 @@ class SmallestIntegerFinder {
     }
   }
 
-  \\ second way 
+  // second way 
   class SmallestIntegerFinder {
     findSmallestInt(args) {
       return Math.min(...args)
