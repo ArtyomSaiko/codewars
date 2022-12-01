@@ -1,9 +1,9 @@
-\\first way
+// first way
 function doubleChar(str) {
   return str.replace(/./g, '$&$&');
 }
 
-\\second way
+// second way
 function doubleChar(str) {
   var a = '';
   for (var i = 0; i < str.length; i++){
