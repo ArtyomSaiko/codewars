@@ -11,7 +11,7 @@ function defineSuit(card) {
     }
   }
 
-  \\ second way 
+  // second way 
   function defineSuit(card) {
     var suit = card.substr(-1);
     switch(suit){
