@@ -10,7 +10,7 @@ function DNAtoRNA(dna) {
     return str;
    }
 
-   \\ second way 
+   // second way 
    function DNAtoRNA(dna) {
     return dna.split("T").join("U");
   }
