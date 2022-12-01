@@ -1,4 +1,4 @@
-\\ first way 
+// first way 
 class SmallestIntegerFinder {
     findSmallestInt(args) {
     var t;
