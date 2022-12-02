@@ -1,4 +1,4 @@
-\\first way
+// first way
 function multiTable(number) {
   let res = '';
   for(let i = 1; i <= 10; i++){
@@ -7,7 +7,7 @@ function multiTable(number) {
   } return res;
 }
 
-\\second way
+// second way
 function multiTable(number) {
   let table = '';
   for(let i = 1; i <= 10; i++){
