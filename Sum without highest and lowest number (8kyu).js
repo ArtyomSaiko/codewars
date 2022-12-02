@@ -6,7 +6,7 @@ function sumArray(array) {
             : 0
 }
 
-\\ second way 
+// second way 
 function sumArray(array) {
     if (array == null) {
       return 0;
