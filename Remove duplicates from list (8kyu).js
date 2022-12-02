@@ -1,4 +1,5 @@
-\\first way
+// first way
+
 function distinct(a) {
  var newArr = [];
     for (var i = 0; i < a.length; i++) {
@@ -8,7 +9,8 @@ function distinct(a) {
     }  return newArr;
 }
 
-\\second way
+// second way
+
 function distinct(a) {
   return Array.from(new Set(a));
 }
