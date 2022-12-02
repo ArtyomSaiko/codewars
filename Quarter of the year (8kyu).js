@@ -1,4 +1,4 @@
-\\first way
+// first way
 const quarterOf = (month) => {
  if(month < 4) return 1;
  if(month < 7) return 2;
@@ -6,7 +6,7 @@ const quarterOf = (month) => {
  return 4;
 }
 
-\\second way
+// second way
 const quarterOf = (month) => {
   if (month <= 3) {
     return 1
