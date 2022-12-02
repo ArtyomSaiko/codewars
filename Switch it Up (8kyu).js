@@ -33,7 +33,7 @@ function switchItUp(number){
          }
       }
 
-      \\ second way
+      // second way
       function switchItUp(number){
         switch(number) {
           case 0:
