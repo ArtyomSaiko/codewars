@@ -1,6 +1,6 @@
 isReallyNaN = val => Number.isNaN(val)
 
-\\ second way 
+// second way 
 function isReallyNaN(val) {
     return val != val;
   };
