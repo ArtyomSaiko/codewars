@@ -22,7 +22,7 @@ function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin) {
     }
   }
 
-  \\ second way
+  // second way
    function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
     let shTime = sharkDistance/sharkSpeed;
     let youTime = pontoonDistance/youSpeed;
