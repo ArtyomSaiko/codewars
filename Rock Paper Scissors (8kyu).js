@@ -12,7 +12,8 @@ function rps(p1, p2) {
       return "Player 2 won!";
     }
   }
- \\ second way 
+ // second way 
+ 
   const rps = (p1, p2) => {
     if (p1 === p2) return "Draw!";
     var rules = {rock: "scissors", paper: "rock", scissors: "paper"};
