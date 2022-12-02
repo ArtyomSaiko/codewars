@@ -2,5 +2,5 @@ function reverseList(list) {
     return list.reverse();
    }
 
-   \\ secind way 
+   // secind way 
    const reverseList = list => list.reverse();
