@@ -1,7 +1,7 @@
-\\ first way 
+// first way 
 const findAverage = (nums) => nums.reduce((a, c) => a + c) / nums.length;
 
-\\second way
+// second way
 var findAverage = function (nums){
     var sum = nums.reduce(function(a, b) {
         return a + b;
