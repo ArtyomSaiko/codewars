@@ -6,7 +6,7 @@ function squareSum(numbers) {
     return sum
 }
 
-\\ second way 
+// second way 
 function squareSum(numbers){
     return numbers.reduce((sum,num) => sum + (num * num), 0);
   }
