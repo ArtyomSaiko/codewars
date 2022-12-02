@@ -1,4 +1,4 @@
-\\ first way 
+// first way 
 function finalGrade (exam, projects) {
     if (exam > 90 || projects> 10){
       return 100;
@@ -9,7 +9,7 @@ function finalGrade (exam, projects) {
     } else return 0;
   }
 
-  \\ second way 
+  // second way 
   function finalGrade(exam, projects) {
     if (exam > 90 || projects > 10) return 100;
     if (exam > 75 && projects >= 5) return 90;
@@ -17,7 +17,7 @@ function finalGrade (exam, projects) {
     return 0;
 }
 
-\\ third option
+// third option
 const finalGrade = (exam, projects) => {
     return (
       exam > 90 || projects > 10 ? 100 :
@@ -26,7 +26,7 @@ const finalGrade = (exam, projects) => {
     )
   }
 
-  \\ fourth option
+  // fourth option
   finalGrade = (exam, projects) => {
     switch (true) {
          case (exam > 90 || projects > 10):
