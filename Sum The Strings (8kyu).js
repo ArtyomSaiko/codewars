@@ -1,14 +1,14 @@
-\\ first way 
+// first way 
 function sumStr(a,b) {
     return String(+a + +b);
   }
 
-  \\ second way
+  // second way
   function sumStr(a,b) {
     return String(Number(a)+Number(b));
   }
 
-  \\ third way
+  // third way
   function sumStr(a,b) {
     const num1 = Number(a);
     const num2 = Number(b);
