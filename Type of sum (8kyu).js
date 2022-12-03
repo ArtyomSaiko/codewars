@@ -6,7 +6,7 @@ function typeOfSum(a, b) {
 // second way
 const typeOfSum = (a, b) => typeof(a + b);
 
-\\third way
+// third way
 function typeOfSum(a, b) {
     let res = a + b;
     return typeof res;
