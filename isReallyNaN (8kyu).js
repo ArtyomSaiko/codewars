@@ -1,3 +1,4 @@
+// first way
 isReallyNaN = val => Number.isNaN(val)
 
 // second way 
