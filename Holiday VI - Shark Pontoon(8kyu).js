@@ -1,3 +1,4 @@
+// first way
 function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin) {
     let timeToPontoonPeople = pontoonDistance / youSpeed;
     let timeToPontoonShark = sharkDistance / sharkSpeed;
