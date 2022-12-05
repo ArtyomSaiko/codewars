@@ -1,3 +1,4 @@
+// first way
 function multipleOfIndex(arr) {
     let result = [arr[1]];
     
