@@ -1,3 +1,4 @@
+// first way
 function switchItUp(number){
         switch (true) {
              case (number == 0):
