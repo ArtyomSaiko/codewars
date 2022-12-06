@@ -1,3 +1,4 @@
+// first way
 TempleStrings = (obj, feature) => `${obj} are ${feature}`
 
 // second way
